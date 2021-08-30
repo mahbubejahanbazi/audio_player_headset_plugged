@@ -10,6 +10,5 @@
     <color name="file_audio_item">#eec900</color>
     <color name="file_audio_seekbar_progress">#ee7600</color>
     <color name="color_primary">#1C9AC1</color>
-    <color name="bg_main_window">#C2E3ED</color>
     <color name="color_primary_variant">#0A627E</color>
 </resources>
