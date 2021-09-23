@@ -10,7 +10,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 
 public class MainActivity extends AppCompatActivity {
-    public MyAudioPlayer audioPlayer;
+    public AudioPlayer audioPlayer;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         audioPlayer = findViewById(R.id.activity_main_audio_player);
         audioPlayer.setAudio(R.raw.audio_file_example);
         IntentFilter receiverFilter = new IntentFilter(Intent.ACTION_HEADSET_PLUG);
-        MyHeadsetReceiver receiver = new MyHeadsetReceiver();
+        HeadsetReceiver receiver = new HeadsetReceiver();
         registerReceiver(receiver, receiverFilter);
     }
 

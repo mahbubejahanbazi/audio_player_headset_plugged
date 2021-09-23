@@ -20,6 +20,6 @@ public class ExampleInstrumentedTest {
     @Test
     public void useAppContext() {
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.example.audioplayerheadsetplugged", appContext.getPackageName());
+        assertEquals("ir.mjahanbazi.audioplayerheadsetplugged", appContext.getPackageName());
     }
 }
